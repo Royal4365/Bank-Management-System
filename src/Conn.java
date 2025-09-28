@@ -9,7 +9,7 @@ public class Conn {
             // Replace with your actual database details
             String url = "jdbc:mysql:///bankmanagementsystem";
             String user = "root";
-            String password = "123456789";
+            String password = "write-your-own-pass";
             
             c = DriverManager.getConnection(url, user, password);
             c.setAutoCommit(false);
